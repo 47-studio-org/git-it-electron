@@ -37,6 +37,7 @@
   "homepage": "https://github.com/jlord/git-it-electron",
   "devDependencies": {
 
+
     "request": "^2.57.0"
   }
 }
