@@ -36,15 +36,7 @@
   },
   "homepage": "https://github.com/jlord/git-it-electron",
   "devDependencies": {
-    "electron": "^7.1.11",
-    "electron-packager": "^14.2.0",
-    "rimraf": "^3.0.1",
-    "standard": "^14.3.1"
-  },
-  "dependencies": {
-    "cheerio": "^0.22.0",
-    "glob": "^7.1.6",
-    "handlebars": "^4.7.2",
+
     "request": "^2.57.0"
   }
 }
