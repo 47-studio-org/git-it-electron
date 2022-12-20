@@ -23,7 +23,9 @@
     "build-all": "npm run clean && npm run build-chals && npm run build-pages",
     "pack-mac": "electron-packager . Git-it --platform=darwin --arch=x64   --icon=assets/git-it.icns --overwrite --ignore=/out/ --ignore=assets/PortableGit --ignore=resources/ --prune=true --out=out",
     "pack-lin": "electron-packager . Git-it --platform=linux  --arch=x64   --icon=assets/git-it.png  --overwrite --ignore=/out/ --ignore=assets/PortableGit --ignore=resources/ --prune=true --out=out",
-    "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --ignore=resources/ --prune=true --out=out "
+    "pack-win": "electron-packager . Git-it --platform=win32  --arch=ia32  --icon=assets/git-it.ico  --overwrite --ignore=/out/ --ignore=resources/ --prune=true --out=out ",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -37,7 +39,4 @@
   "homepage": "https://github.com/jlord/git-it-electron",
   "devDependencies": {
 
-
-    "request": "^2.57.0"
-  }
 }
