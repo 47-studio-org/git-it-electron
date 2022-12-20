@@ -5,8 +5,3 @@ ignore: {}
 patch:
   SNYK-JS-LODASH-567746:
     - standard > standard-engine > eslint > handlebars > async > lodash:
-        patched: '2022-08-21T05:02:03.338Z'
-    - standard > standard-format > esformatter-semicolon-first > esformatter-parser > babel-traverse > lodash:
-        patched: '2022-08-21T05:02:03.338Z'
-    - standard > standard-format > esformatter-semicolon-first > esformatter-parser > babel-traverse > babel-types > lodash:
-        patched: '2022-08-21T05:02:03.338Z'
